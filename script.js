@@ -31,7 +31,7 @@ if (counter < 10) {
         button.innerHTML = `Click (${counter})`
     
         button.classList.remove('bg-danger');
-    }, 700);
+    }, 5000);
 }
 
 console.log(counter)
